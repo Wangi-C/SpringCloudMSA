@@ -1,0 +1,8 @@
+server:
+  port: 9050
+
+spring:
+  application:
+    name: configtest-dev
+  config:
+    import: optional:configserver:http://localhost:8881
